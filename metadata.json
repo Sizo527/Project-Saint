@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Minimalist Portfolio",
+  "description": "A high-contrast, minimalist portfolio featuring interactive project showcases, services list, and sleek typography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

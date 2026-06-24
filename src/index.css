@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-gold: #c5a880;
+  --color-gold-hover: #b09168;
+  --color-cream: #f5f2eb;
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+@utility text-stroke-black {
+  -webkit-text-stroke: 1px black;
+}
+
+@utility text-stroke-white {
+  -webkit-text-stroke: 1px white;
+}
