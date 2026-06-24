@@ -6,6 +6,7 @@ export interface Project {
   tags: string[];
   year: string;
   description: string;
+  liveUrl?: string;
   details: {
     client: string;
     role: string;

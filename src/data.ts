@@ -2,19 +2,19 @@ import { Project, Service, Stat, Testimonial } from "./types";
 
 export const STATS: Stat[] = [
   {
-    value: "45+",
-    label: "Success Projects",
-    description: "Premium digital solutions delivered worldwide."
-  },
-  {
-    value: "18",
-    label: "Award Mentions",
-    description: "Features in CSSDA, Awwwards, and Behance."
-  },
-  {
-    value: "9+",
+    value: "10+",
     label: "Years Experience",
-    description: "Crafting digital identities since 2017."
+    description: "Honing my technical and creative craft across multiple mediums since 2016."
+  },
+  {
+    value: "3",
+    label: "Core Disciplines",
+    description: "Seamlessly blending modern web development, cinematic videography, and photography."
+  },
+  {
+    value: "100%",
+    label: "Bespoke Delivery",
+    description: "Every digital artifact is built and captured from the ground up—no generic templates."
   }
 ];
 
@@ -22,108 +22,94 @@ export const SERVICES: Service[] = [
   {
     id: "01",
     number: "01",
-    title: "UI/UX Design",
-    description: "Designing thoughtful, user-centric interfaces that balance form, function, and brand storytelling.",
-    deliverables: ["User Research", "Wireframing & Prototyping", "Design System Creation", "High-Fidelity UI Design"],
-    avgDuration: "3-5 Weeks"
+    title: "Web Design & Development",
+    description: "Creating highly bespoke, modern, and responsive layouts tailored to your brand, built with React and robust modern frameworks.",
+    deliverables: ["Responsive Layouts", "Custom Development", "Performance Optimization", "Headless CMS Integration"],
+    avgDuration: "2-4 Weeks"
   },
   {
     id: "02",
     number: "02",
-    title: "Web Design",
-    description: "Creating highly bespoke, modern, and responsive desktop & mobile layouts that break the grid.",
-    deliverables: ["Responsive Layouts", "Custom Grid Systems", "Typography Audits", "Creative Coding Concepts"],
-    avgDuration: "2-4 Weeks"
-  },
-  {
-    id: "03",
-    number: "03",
     title: "Landing Page Design",
     description: "Crafting high-impact, conversion-optimized standalone web experiences with flawless animations.",
     deliverables: ["Sales Funnel Mapping", "Copywriting Collaboration", "A/B Test Mockups", "Interactive Animations"],
     avgDuration: "1-2 Weeks"
   },
   {
+    id: "03",
+    number: "03",
+    title: "Videography",
+    description: "Capturing cinematic visuals and compelling stories through high-quality video production and meticulous post-production editing.",
+    deliverables: ["Commercial Video", "Event Coverage", "Cinematic Storytelling", "Color Grading"],
+    avgDuration: "1-3 Weeks"
+  },
+  {
     id: "04",
     number: "04",
-    title: "UI Design Figma",
-    description: "Building production-ready, beautifully documented component libraries and interactive Figma prototypes.",
-    deliverables: ["Auto-Layout Component Kits", "Variable-Driven Dark/Light Themes", "Interactive Overlays", "Developer Handoff Guides"],
-    avgDuration: "2-3 Weeks"
+    title: "Professional Photography",
+    description: "Delivering pristine, high-resolution photography spanning professional portraits, events, and commercial products.",
+    deliverables: ["Portrait Sessions", "Event Photography", "Product & Brand Shoots", "Retouching"],
+    avgDuration: "1-2 Weeks"
   },
   {
     id: "05",
     number: "05",
-    title: "Mobile App Design",
-    description: "Designing tactile, gesture-driven iOS & Android applications optimized for thumb reach and fluid motion.",
-    deliverables: ["Micro-interaction Specs", "Gesture Mapping", "Platform-Specific Adaptation", "Interactive Flow Prototypes"],
-    avgDuration: "4-6 Weeks"
+    title: "Graphic Design",
+    description: "Designing thoughtful, high-impact visual identities and marketing materials that balance aesthetic form and brand storytelling.",
+    deliverables: ["Logo Design", "Brand Guidelines", "Social Media Assets", "Print & Digital Layouts"],
+    avgDuration: "1-3 Weeks"
   }
 ];
 
 export const PROJECTS: Project[] = [
   {
-    id: "aether-os",
-    title: "Aether OS",
-    category: "UI/UX",
-    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800&h=600&sat=-100",
-    tags: ["Concept", "Spatial Computing", "Figma"],
-    year: "2026",
-    description: "Redefining digital workspace interfaces with an eye-strain-free, pure geometric design system.",
-    details: {
-      client: "Aether Labs (Internal Project)",
-      role: "Lead Interface Designer",
-      timeline: "4 Months",
-      challenge: "Standard screen interfaces are cluttered with legacy desktop metaphors that distract and restrict deep focus.",
-      solution: "Designed an entirely spatial, windowless system operating on a dynamic bento-grid snapping model with custom micro-interactions."
-    }
-  },
-  {
-    id: "kromah",
-    title: "Kromah",
+    id: "mtshabezi-portal",
+    title: "Mtshabezi High School",
     category: "Web Design",
-    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=800&h=600&sat=-100",
-    tags: ["React", "E-Commerce", "Headless CMS"],
-    year: "2025",
-    description: "A fluid, image-heavy digital storefront with ultra-smooth transitions and a high-contrast brutalist layout.",
+    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=800&h=600&sat=-100",
+    tags: ["React", "TypeScript", "Headless CMS"],
+    year: "2026",
+    liveUrl: "https://mtshabezi-website-concept.vercel.app/",
+    description: "A digital portal concept designed to modernize school workflows, featuring a headless CMS for effortless, real-time content updates by administrative staff.",
     details: {
-      client: "Kromah Apparel Co.",
-      role: "Creative Director & Developer",
-      timeline: "3 Months",
-      challenge: "Fast-fashion websites feel uniform, spammy, and cheap, significantly devaluing high-end structural clothing.",
-      solution: "Engineered a cinematic storefront where product discovery feels like flipping through a pristine print lookbook with smooth scroll effects."
+      client: "Mtshabezi High School (Concept)",
+      role: "Lead Developer & UX Designer",
+      timeline: "3 Weeks",
+      challenge: "Legacy school systems suffer from fragmented communication, making it difficult for staff to easily update students and parents.",
+      solution: "Engineered a responsive web portal using React, integrated with a headless CMS to allow non-technical administrators full control."
     }
   },
   {
-    id: "soma",
-    title: "Soma",
-    category: "Mobile App Design",
-    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=800&h=600&sat=-100",
-    tags: ["iOS App", "BLE Control", "Hardware UX"],
-    year: "2025",
-    description: "An intuitive mobile application companion that bridges physical dial adjustments with instant digital presets.",
+    id: "cinematic-reel",
+    title: "Cinematic Videography",
+    category: "Video Production",
+    image: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&q=80&w=800&h=600&sat=-100",
+    tags: ["Sony Alpha", "Motion Graphics", "Color Grading"],
+    year: "2025-2026",
+    liveUrl: "https://vimeo.com/channels/staffpicks",
+    description: "A curated collection of commercial, event, and creative video projects focusing on storytelling and high-fidelity visuals.",
     details: {
-      client: "Soma Labs Sweden",
-      role: "UX Researcher & Product Designer",
-      timeline: "6 Months",
-      challenge: "Synthesizer menus are deep and complex, distracting musicians from their live flow during intense performances.",
-      solution: "Designed a clean, single-screen tactile dashboard mapping physical hardware knobs directly to real-time vector graphs on mobile screens."
+      client: "Various Freelance Clients",
+      role: "Director of Photography & Editor",
+      timeline: "Ongoing",
+      challenge: "Delivering dynamic visual narratives that capture attention and align with specific brand identities.",
+      solution: "Utilized the Sony mirrorless ecosystem and advanced post-production techniques to deliver crisp, color-graded motion assets."
     }
   },
   {
-    id: "atelier-neue",
-    title: "Atelier Neue",
-    category: "UI Design Figma",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800&h=600&sat=-100",
-    tags: ["Branding", "Web Layout", "Design System"],
-    year: "2024",
-    description: "A responsive editorial platform featuring fluid typography, rigid typographic alignments, and deep-zoom imagery.",
+    id: "portrait-commercial-photo",
+    title: "Portrait & Commercial Photography",
+    category: "Photography",
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800&h=600&sat=-100",
+    tags: ["Portraits", "Retouching", "Event Coverage"],
+    year: "2025-2026",
+    description: "High-resolution photography spanning professional portraits, event coverage, and creative brand shoots.",
     details: {
-      client: "Atelier Neue Architects",
-      role: "Brand Strategist & Interactive Designer",
-      timeline: "2 Months",
-      challenge: "Architectural firms usually have static, non-responsive portfolios that fail to convey spatial scale and depth.",
-      solution: "Engineered a full-screen modular grid system that allows users to walk through physical structures using vertical scroll-linked transitions."
+      client: "Various Freelance Clients",
+      role: "Lead Photographer",
+      timeline: "Ongoing",
+      challenge: "Capturing authentic moments while maintaining a pristine, editorial aesthetic.",
+      solution: "Combined natural lighting techniques with meticulous color grading to produce a cohesive visual portfolio."
     }
   }
 ];

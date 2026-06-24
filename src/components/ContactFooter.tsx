@@ -30,10 +30,9 @@ export default function ContactFooter() {
   };
 
   const socialLinks = [
-    { label: "Instagram", href: "https://instagram.com" },
-    { label: "Dribbble", href: "https://dribbble.com" },
-    { label: "LinkedIn", href: "https://linkedin.com" },
-    { label: "Email Me", href: "mailto:sizosibanda14@gmail.com" } // User specified email from metadata
+    { label: "Instagram", href: "https://instagram.com/just.sizo" },
+    { label: "WhatsApp", href: "https://wa.me/263782581863" },
+    { label: "Email Me", href: "mailto:sizosibanda14@gmail.com" }
   ];
 
   return (
@@ -75,8 +74,9 @@ export default function ContactFooter() {
 
             {/* Quick stats / contacts */}
             <div className="space-y-3 font-mono text-[11px] uppercase tracking-wider text-neutral-400 border-l border-gold pl-4">
-              <p>DIRECT LINE: <a href="mailto:sizosibanda14@gmail.com" className="text-white hover:text-gold transition-colors font-bold">sizosibanda14@gmail.com</a></p>
-              <p>REPRESENTATION: LA — PARIS // GLOBAL REMOTE</p>
+              <p>EMAIL: <a href="mailto:sizosibanda14@gmail.com" className="text-white hover:text-gold transition-colors font-bold">sizosibanda14@gmail.com</a></p>
+              <p>DIRECT LINE (WA): <a href="https://wa.me/263782581863" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold transition-colors font-bold">+263 78 258 1863</a></p>
+              <p>REPRESENTATION: BULAWAYO // GLOBAL REMOTE</p>
             </div>
 
             {/* Social handles list in a hard grid array */}

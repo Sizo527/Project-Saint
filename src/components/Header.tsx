@@ -35,7 +35,7 @@ export default function Header() {
   useEffect(() => {
     const updateTime = () => {
       const options: Intl.DateTimeFormatOptions = {
-        timeZone: "America/Los_Angeles",
+        timeZone: "Africa/Harare",
         hour: "2-digit",
         minute: "2-digit",
         second: "2-digit",
@@ -80,7 +80,7 @@ export default function Header() {
           <div className="h-4 w-[1px] bg-neutral-900/20 dark:bg-white/10"></div>
           <div className="flex items-center gap-2">
             <Globe className="w-3.5 h-3.5 animate-spin-slow text-gold" />
-            <span>LOS ANGELES — {time || "09:14"} (PST)</span>
+            <span>BULAWAYO — {time || "09:14"} (CAT)</span>
           </div>
         </div>
 
@@ -174,7 +174,7 @@ export default function Header() {
             <div className="border-t border-neutral-900/10 dark:border-white/10 pt-6 flex flex-col gap-3 font-mono text-xs uppercase tracking-wider text-neutral-900/60 dark:text-neutral-100/60">
               <div className="flex items-center gap-2">
                 <Globe className="w-3.5 h-3.5 animate-spin-slow text-gold" />
-                <span>PST TIME: {time || "09:14"}</span>
+                <span>CAT TIME: {time || "09:14"}</span>
               </div>
               <button
                 onClick={() => scrollToSection("contact")}

@@ -8,7 +8,7 @@ export default function ProjectsShowcase() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const categories = ["All", "UI/UX", "Web Design", "UI Design Figma", "Mobile App Design"];
+  const categories = ["All", "Web Design", "Video Production", "Photography"];
 
   const filteredProjects = selectedCategory === "All"
     ? PROJECTS
@@ -225,6 +225,18 @@ export default function ProjectsShowcase() {
                   <p className="text-neutral-700 dark:text-neutral-300 text-base leading-relaxed font-light">
                     {selectedProject.description}
                   </p>
+                  {selectedProject.liveUrl && (
+                    <div className="pt-2">
+                      <a 
+                        href={selectedProject.liveUrl} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-6 py-3 text-xs font-mono font-semibold tracking-wider uppercase transition-all duration-300 border bg-neutral-950 text-cream dark:bg-white dark:text-black border-neutral-950 dark:border-white hover:bg-transparent hover:text-neutral-950 dark:hover:bg-transparent dark:hover:text-white"
+                      >
+                        View Live Site <ArrowUpRight className="w-3.5 h-3.5" />
+                      </a>
+                    </div>
+                  )}
                 </div>
 
                 {/* Detailed Challenge & Solution breakdown */}

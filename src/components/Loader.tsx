@@ -89,7 +89,7 @@ export default function Loader({ onComplete }: LoaderProps) {
           PROJECT SAINT // DIGITAL STUDIO
         </span>
         <span className="font-mono text-[10px] tracking-widest text-neutral-500 uppercase">
-          EST. 2026 // PARIS — LA
+          EST. 2026 // BULAWAYO — GLOBAL
         </span>
       </div>
 
