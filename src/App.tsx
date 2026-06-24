@@ -6,6 +6,7 @@
 import React, { useState, useEffect } from "react";
 import { AnimatePresence } from "motion/react";
 import Loader from "./components/Loader";
+import CustomCursor from "./components/CustomCursor";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import AboutStats from "./components/AboutStats";
@@ -31,6 +32,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-cream dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 font-sans antialiased selection:bg-gold selection:text-black dark:selection:bg-gold dark:selection:text-black transition-colors duration-350">
+      {/* High-Performance Custom Interactive Cursor */}
+      <CustomCursor />
+
       {/* Loading Screen Overlay */}
       <AnimatePresence mode="wait">
         {isLoading && (
